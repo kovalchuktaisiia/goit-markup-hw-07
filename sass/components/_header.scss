@@ -1,0 +1,131 @@
+
+header {
+    background-color: var(--white-background);
+    border: 1px; 
+    border: 1px solid #ECECEC;
+    position: relative;
+}
+
+.header {
+    align-items: center;
+}
+
+.header-logo { 
+    height: 31px;
+    width: 145px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: contents;
+
+}
+
+header a {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;  
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list {
+    display: flex;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+    }
+
+
+.header-list {
+        display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 90px;
+    margin: 0px; 
+}
+
+.header-list .item{
+    margin-right: 45px;
+}
+
+.header-list .item:last-child {
+    margin: 0px;
+}
+
+.header-adres {
+    display: flex;
+    position: right;
+    font-weight: 500;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    margin-left: auto;
+}
+
+.header-adres .email-phone {
+    font-weight: 500;
+}
+
+.header-adres .item + .item {
+    margin-left: 40px;
+}
+
+.current {
+    color: var(--accent-link-color);
+}
+
+.current::after {
+    
+    content: "";
+    /* background-color: var(--accent-link-color); */
+    bottom: 0;
+    position: absolute;
+    background-repeat: no-repeat;
+    display: block;
+    height: 4px;
+    width: 100%;
+}
+
+.studio::after {
+    background-image: url(./svg/hover-studio.svg);
+}
+
+.portfolio::after {
+    background-image: url(./svg/hover-portfolio.svg);
+}
+
+.envelope {
+    width: 16px;
+    height: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone-icon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+    fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.header a:hover, .header a:hover svg,
+.header a:focus, .header a:focus svg {
+    color: var(--accent-link-color);
+    fill: var(--accent-link-color);
+}
