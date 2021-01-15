@@ -1,0 +1,51 @@
+
+
+.filter {
+    background-color: var(--white-background);
+    display: block;
+    margin: 0px;  
+}
+
+.filter .item {
+    display: flex;
+}
+
+.filter .list {
+    justify-content: center;
+}
+
+.filter .item + .item {
+    margin-left: 5px;
+}
+
+/* через баттон*/
+
+.button {
+    background-color: var(--button-background);
+    color: var(--h2-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    border: 0px;
+    border-radius: 4px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    cursor: pointer;
+
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+.button:focus,
+.button:hover {
+    color: var(--white-background);
+    background: var(--accent-link-color);
+    font-style: normal;
+    text-align: center;
+}
