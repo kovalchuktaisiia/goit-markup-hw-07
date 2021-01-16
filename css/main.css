@@ -1,4 +1,14 @@
-@charset "UTF-8";
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -531,8 +541,8 @@ h3 {
 }
 
 .team-player-item {
-  background-color: var(--white-background);
-  border-color: var(--h2-color);
+  background-color: #FFFFFF;
+  border-color: #212121;
   width: 270px;
   border-radius: 0px 0px 4px 4px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -582,8 +592,8 @@ h3 {
 
 .sosial-media-list a:hover,
 .sosial-media-list a:focus {
-  background-color: var(--accent-link-color);
-  fill: white;
+  background-color: #2196F3;
+  fill: #FFFFFF;
 }
 
 .media-icon {
@@ -645,20 +655,10 @@ h3 {
 
 .clients-item a:hover, .clients-item a:hover svg,
 .clients-item a:focus, .clients-item a:focus svg {
-  border-color: var(--accent-link-color);
-  fill: var(--accent-link-color);
+  border-color: #2196F3;
+  fill: #2196F3;
 }
 
-/* .clients-item a:hover,
-.clients-item a:focus {
-    border-color: var(--accent-link-color);
-    fill: var(--accent-link-color);
-} */
-/* .clients-link:hover,
-.clients-link:focus {
-    border-color: var(--accent-link-color);
-    fill: var(--accent-link-color);
-} */
 .clients-icon {
   fill: var(--icon-colour);
   -webkit-transition-property: fill;
@@ -669,17 +669,13 @@ h3 {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .clients-icon:hover,
-.clients-icon:focus {
-    fill: var(--accent-link-color);
-} */
 p {
   text-align: left;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: #757575;
   margin: 0px;
 }
 
@@ -777,7 +773,7 @@ p {
 /* 
  -------- projects ---------- */
 .section-projects {
-  background-color: var(--white-background);
+  background-color: #FFFFFF;
   padding-bottom: 94px;
   padding-top: 94px;
 }
@@ -787,7 +783,7 @@ p {
   font-size: 16px;
   line-height: 30px;
   text-align: center;
-  color: var(--main-text-color);
+  color: #757575;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -826,7 +822,7 @@ p {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-  color: var(--h2-color);
+  color: #212121;
   text-align: left;
   /*  margin: 0px;
     padding-top: 20px;
@@ -932,7 +928,7 @@ p {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.03em;
-  color: var(--white-background);
+  color: #FFFFFF;
 }
 
 .project-item:hover, .project-item:focus,
@@ -941,7 +937,7 @@ p {
 }
 
 .filter {
-  background-color: var(--white-background);
+  background-color: #FFFFFF;
   display: block;
   margin: 0px;
 }
@@ -962,10 +958,9 @@ p {
   margin-left: 5px;
 }
 
-/* через баттон*/
 .button {
-  background-color: var(--button-background);
-  color: var(--h2-color);
+  background-color: #F5F4FA;
+  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -989,8 +984,8 @@ p {
 
 .button:focus,
 .button:hover {
-  color: var(--white-background);
-  background: var(--accent-link-color);
+  color: #FFFFFF;
+  background: #2196F3;
   font-style: normal;
   text-align: center;
 }
@@ -1171,16 +1166,5 @@ address {
   width: 355px;
   height: 50px;
   color: #FFFFFF;
-}
-
-*,
-*::before,
-*::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
 }
 /*# sourceMappingURL=main.css.map */

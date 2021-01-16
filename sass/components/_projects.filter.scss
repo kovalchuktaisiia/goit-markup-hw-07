@@ -1,7 +1,5 @@
-
-
 .filter {
-    background-color: var(--white-background);
+    background-color: $white-background;
     display: block;
     margin: 0px;  
 }
@@ -18,11 +16,9 @@
     margin-left: 5px;
 }
 
-/* через баттон*/
-
 .button {
-    background-color: var(--button-background);
-    color: var(--h2-color);
+    background-color: $button-background;
+    color: $h2-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -44,8 +40,8 @@
 
 .button:focus,
 .button:hover {
-    color: var(--white-background);
-    background: var(--accent-link-color);
+    color: $white-background;
+    background: $accent-link-color;
     font-style: normal;
     text-align: center;
 }
