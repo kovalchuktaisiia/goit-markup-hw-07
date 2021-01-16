@@ -49,6 +49,12 @@
     margin-bottom: 30px;
     padding: 0px;
   justify-content: center;
+
+  & a:hover,
+  & a:focus {
+  background-color: $accent-link-color;
+  fill: $white-background;
+}
 }
 
 .sosial-media-item a {
@@ -63,12 +69,6 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sosial-media-list a:hover,
-.sosial-media-list a:focus {
-  background-color: $accent-link-color;
-  fill: $white-background;
 }
 
 .media-icon {
