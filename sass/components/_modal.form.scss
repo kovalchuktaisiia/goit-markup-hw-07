@@ -1,4 +1,3 @@
-
 .form-modal {
     outline: 1px;
     margin-left: auto;
@@ -41,15 +40,35 @@
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
-}
 
-.form-field label {
+    & label {
     margin-bottom: 4px;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: $main-text-color;
+    color: $main-text-color;    
+    }
+
+    & input {
+        padding-left: 40px;
+    }
+    
+    & textarea {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        font-size: 16px;
+        height: 120px;
+    }
+    
+    & textarea::placeholder {
+        font-size: 12px;
+        color: rgba(117, 117, 117, 0.5);
+        font-weight: normal;
+    }
+    
 }
 
 .form-input {
@@ -73,25 +92,6 @@
     border-radius: 4px;
 }
 
-.form-field input {
-    padding-left: 40px;
-}
-
-.form-field textarea {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    font-size: 16px;
-    height: 120px;
-}
-
-.form-field textarea::placeholder {
-    font-size: 12px;
-    color: rgba(117, 117, 117, 0.5);
-    font-weight: normal;
-}
-
 .checkbox-field {
     margin-top: 20px;
     margin-bottom: 30px;
@@ -111,26 +111,26 @@
 .checkbox-label {
     display: flex;
     align-items: center;
-}
 
-.checkbox:checked + .checkbox-icon {
-    background-color: $accent-link-color;
-    border-color: $accent-link-color;
-    background-image: url(../svg/icon\check\no\color.svg);
-    background-size: contain;
-    background-origin: border-box;
+    & a {
+        margin-left: 2px;
+        text-decoration: none;
+        text-decoration: underline;
+        color: $accent-link-color;
+    }
 }
 
 .checkbox {
     appearance: none;
     outline: none;
-}
 
-.checkbox-label a {
-    margin-left: 2px;
-    text-decoration: none;
-    text-decoration: underline;
-    color: $accent-link-color;
+    &:checked + .checkbox-icon {
+        background-color: $accent-link-color;
+        border-color: $accent-link-color;
+        background-image: url(../svg/icon\check\no\color.svg);
+        background-size: contain;
+        background-origin: border-box;
+    }
 }
 
 .button-modal {
@@ -149,10 +149,10 @@
     color: $white-background; 
     height: 50px;
     min-width: 200px;
-}
 
-.button-modal:hover {
+    &:hover {
     cursor: pointer;
+    }
 }
 
 .modal-svg {

@@ -229,8 +229,7 @@ h3 {
   margin-top: 30px;
 }
 
-.to-order:hover,
-.to-order:focus {
+.to-order:hover, .to-order:focus {
   cursor: pointer;
 }
 
@@ -407,29 +406,6 @@ h3 {
   color: #757575;
 }
 
-.form-input {
-  -webkit-transition-property: border-color;
-  transition-property: border-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  outline: none;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-  height: 40px;
-}
-
-.comment-input {
-  margin: 0;
-  padding: 0;
-  border: 1px solid rgba(33, 33, 33, 0.2);
-  border-radius: 4px;
-}
-
 .form-field input {
   padding-left: 40px;
 }
@@ -467,6 +443,29 @@ h3 {
   font-weight: normal;
 }
 
+.form-input {
+  -webkit-transition-property: border-color;
+  transition-property: border-color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  height: 40px;
+}
+
+.comment-input {
+  margin: 0;
+  padding: 0;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
 .checkbox-field {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -492,12 +491,11 @@ h3 {
           align-items: center;
 }
 
-.checkbox:checked + .checkbox-icon {
-  background-color: #2196F3;
-  border-color: #2196F3;
-  background-image: url(../svg/icon\check\no\color.svg);
-  background-size: contain;
-  background-origin: border-box;
+.checkbox-label a {
+  margin-left: 2px;
+  text-decoration: none;
+  text-decoration: underline;
+  color: #2196F3;
 }
 
 .checkbox {
@@ -507,11 +505,12 @@ h3 {
   outline: none;
 }
 
-.checkbox-label a {
-  margin-left: 2px;
-  text-decoration: none;
-  text-decoration: underline;
-  color: #2196F3;
+.checkbox:checked + .checkbox-icon {
+  background-color: #2196F3;
+  border-color: #2196F3;
+  background-image: url(../svg/icon\check\no\color.svg);
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .button-modal {
