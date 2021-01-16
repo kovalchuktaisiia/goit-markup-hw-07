@@ -1,6 +1,6 @@
 
 header {
-    background-color: var(--white-background);
+    background-color: $white-background;
     border: 1px; 
     border: 1px solid #ECECEC;
     position: relative;
@@ -16,11 +16,10 @@ header {
     padding-top: 25px;
     padding-bottom: 25px;
     display: contents;
-
 }
 
 header a {
-    color: #212121;
+    color: $h2-color;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -32,17 +31,8 @@ header a {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list {
-    display: flex;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    align-items: center;
-    }
-
-
 .header-list {
-        display: flex;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 90px;
@@ -76,11 +66,10 @@ header a {
 }
 
 .current {
-    color: var(--accent-link-color);
+    color: $accent-link-color;
 }
 
 .current::after {
-    
     content: "";
     /* background-color: var(--accent-link-color); */
     bottom: 0;
@@ -123,9 +112,8 @@ header a {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .header a:hover, .header a:hover svg,
 .header a:focus, .header a:focus svg {
-    color: var(--accent-link-color);
-    fill: var(--accent-link-color);
+    color: $accent-link-color;
+    fill: $accent-link-color;
 }

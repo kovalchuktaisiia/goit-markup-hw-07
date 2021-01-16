@@ -1,9 +1,5 @@
 
-/* 
----- modal form ------ */
-
 .form-modal {
-    
     outline: 1px;
     margin-left: auto;
     margin-right: auto;
@@ -16,20 +12,17 @@
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: $main-text-color;
 } 
 
 .form-input:focus ~ .modal-svg {
-    fill: var(--accent-link-color);
+    fill: $accent-link-color;
 }
 
 .form-label + .form-input:focus {
-    border-color: var(--accent-link-color);  
-
+    border-color: $accent-link-color;  
     cursor: pointer; 
 }
-
-
 
 .form-modal-title {
     margin-bottom: 12px;
@@ -39,7 +32,7 @@
     line-height: 23px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $h2-color;
 }
 
 .form-field {
@@ -51,12 +44,12 @@
 }
 
 .form-field label {
-     margin-bottom: 4px;
-     font-weight: normal;
+    margin-bottom: 4px;
+    font-weight: normal;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: 0.01em;
-    color: #757575;
+    color: $main-text-color;
 }
 
 .form-input {
@@ -121,8 +114,8 @@
 }
 
 .checkbox:checked + .checkbox-icon {
-    background-color: var(--accent-link-color);
-    border-color: var(--accent-link-color);
+    background-color: $accent-link-color;
+    border-color: $accent-link-color;
     background-image: url(../svg/icon\check\no\color.svg);
     background-size: contain;
     background-origin: border-box;
@@ -137,13 +130,12 @@
     margin-left: 2px;
     text-decoration: none;
     text-decoration: underline;
-    color: var(--accent-link-color);
+    color: $accent-link-color;
 }
-
 
 .button-modal {
     display: inline-block; 
-    background: var(--accent-link-color);
+    background: $accent-link-color;
     padding: 0; 
    
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -154,7 +146,7 @@
     text-align: center;
     letter-spacing: 0.06em;
 
-    color: #FFFFFF; 
+    color: $white-background; 
     height: 50px;
     min-width: 200px;
 }
@@ -171,6 +163,6 @@
     position: absolute;
     top: 30px;
     margin-left: 10px;
-    fill: #212121;
+    fill: $h2-color;
     vertical-align: middle;
 }

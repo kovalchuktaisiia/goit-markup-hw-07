@@ -2,8 +2,8 @@
 
 body {
     margin: 0;
-    background: var(--white-background);
-    font-family: var(--text-style);
+    background: $white-background;
+    font-family: $text-style;
     font-style: normal;
-    color: var(--main-text-color);
+    color: $main-text-color;
 }

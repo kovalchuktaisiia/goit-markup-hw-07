@@ -20,11 +20,11 @@
 .to-order {
     
     display: inline-block; 
-    background: var(--accent-link-color);
+    background: $accent-link-color;
     padding: 0; 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    color: var(--white-background);
+    color: $white-background;
     text-align: center;
     font-style: normal;
     font-weight: bold;
