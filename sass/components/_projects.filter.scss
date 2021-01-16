@@ -2,18 +2,18 @@
     background-color: $white-background;
     display: block;
     margin: 0px;  
-}
 
-.filter .item {
+    & .item {
     display: flex;
-}
+    }
 
-.filter .list {
+    & .list {
     justify-content: center;
-}
+    }
 
-.filter .item + .item {
+    & .item + .item {
     margin-left: 5px;
+    }
 }
 
 .button {
@@ -36,12 +36,12 @@
     transition-property: background-color, color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
 
-.button:focus,
-.button:hover {
+    &:focus,
+    &:hover {
     color: $white-background;
     background: $accent-link-color;
     font-style: normal;
     text-align: center;
+    }
 }
