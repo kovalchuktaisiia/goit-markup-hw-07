@@ -1,17 +1,11 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-ul {
-    list-style: none;
-}
 
 @import "./utils/variables";
 @import "./components/html";
 @import "./components/list";
 @import "./components/header";
+@import "./components/header.list";
+@import "./components/header.adress";
 @import "./components/body";
 @import "./components/titles";
 @import "./components/main.banner";
