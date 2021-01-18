@@ -41,20 +41,6 @@ header {
   position: relative;
 }
 
-.header {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.header-logo {
-  height: 31px;
-  width: 145px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  display: contents;
-}
-
 header a {
   color: #212121;
   font-weight: 500;
@@ -68,6 +54,20 @@ header a {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-logo {
+  height: 31px;
+  width: 145px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: contents;
 }
 
 .current {

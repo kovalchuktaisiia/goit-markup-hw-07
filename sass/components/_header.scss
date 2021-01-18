@@ -4,6 +4,19 @@ header {
     border: 1px; 
     border: 1px solid #ECECEC;
     position: relative;
+
+    & a {
+        color: $h2-color;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-decoration: none;  
+    
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .header {
@@ -16,17 +29,4 @@ header {
     padding-top: 25px;
     padding-bottom: 25px;
     display: contents;
-}
-
-header a {
-    color: $h2-color;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-decoration: none;  
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
