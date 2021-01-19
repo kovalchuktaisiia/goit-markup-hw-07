@@ -617,10 +617,6 @@ h3 {
   padding-bottom: 25px;
 }
 
-ul {
-  list-style: none;
-}
-
 .our-team {
   background: #FFFFFF;
   font-weight: normal;
@@ -675,6 +671,12 @@ ul {
           justify-content: center;
 }
 
+.sosial-media-list a:hover,
+.sosial-media-list a:focus {
+  background-color: #2196F3;
+  fill: #FFFFFF;
+}
+
 .sosial-media-item a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -693,12 +695,6 @@ ul {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sosial-media-list a:hover,
-.sosial-media-list a:focus {
-  background-color: #2196F3;
-  fill: white;
 }
 
 .media-icon {
