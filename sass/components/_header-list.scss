@@ -13,6 +13,7 @@
 }
 }
 
+
 .studio::after {
     background-image: url(../svg/hover-studio.svg);
 }
@@ -22,11 +23,16 @@
 }
 
 .header-list {
+    position: absolute;
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 90px;
     margin: 0px; 
+
+    a {
+        position: relative;
+    }
 
     .item{
     margin-right: 45px;
