@@ -102,10 +102,6 @@ header a {
   margin: 0px;
 }
 
-.header-list a {
-  position: relative;
-}
-
 .header-list .item {
   margin-right: 45px;
 }
