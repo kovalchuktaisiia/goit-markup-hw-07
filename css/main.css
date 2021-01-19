@@ -76,7 +76,7 @@ header a {
 
 .current::after {
   content: "";
-  bottom: -32;
+  bottom: -32px;
   position: absolute;
   background-repeat: no-repeat;
   display: block;
@@ -604,7 +604,7 @@ h3 {
 }
 
 .clients-icon {
-  fill: var(--icon-colour);
+  fill: #AFB1B8;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
@@ -663,7 +663,7 @@ h3 {
 }
 
 .clients-icon {
-  fill: var(--icon-colour);
+  fill: #AFB1B8;
   -webkit-transition-property: fill;
   transition-property: fill;
   -webkit-transition-duration: 250ms;
