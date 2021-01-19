@@ -93,7 +93,6 @@ header a {
 }
 
 .header-list {
-  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
