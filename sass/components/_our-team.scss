@@ -82,6 +82,9 @@
 //     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 // }
 
+ul {
+  list-style: none;
+}
 
 .our-team {
   background: $white-background;
@@ -123,6 +126,7 @@
   padding: 0px;
 }
 
+
 .sosial-media-list {
   display: flex;
   padding-left: 32px;
@@ -131,7 +135,6 @@
   padding: 0px;
 justify-content: center;
 }
-
 
 .sosial-media-item a {
   display: flex;
@@ -150,7 +153,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .sosial-media-list a:hover,
 .sosial-media-list a:focus {
 background-color: $accent-link-color;
-fill: $white-background;
+fill: white;
 }
 
 .media-icon {
